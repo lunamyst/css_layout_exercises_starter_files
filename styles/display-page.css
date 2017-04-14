@@ -1,0 +1,44 @@
+main {
+	font-size: 0; 
+}
+.container {
+	border: 1px solid black; 
+}
+.outer {
+height: 500px;
+width: 800px; 
+margin-left: auto;
+margin-right: auto;
+}
+
+.inner-one {
+	height: 200px;
+	width:50%;
+	display: inline-block;
+}
+
+.inner-two {
+	height: 300px;
+	width: 33.33%; 
+	display: inline-block;
+}
+
+.blue {
+	background-color: blue; 
+}
+
+.green {
+	background-color: green; 
+}
+
+.grey {
+	background-color: #808080; 
+}
+
+.black {
+	background-color: #000000; 
+}
+
+.yellow {
+	background-color: #e6b800; 
+}
