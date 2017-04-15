@@ -1,1 +1,66 @@
+ul {
+	list-style: none; 
+	position: absolute;
+	left: 100px;
+	top: 10px;
+
+}
+li {
+	display: inline-block;
+}
+
+nav {
+	position: fixed;
+	background-color: grey; 
+	width: 100%;
+	height: 60px;
+
+}
+
+.logo {
+	position: absolute;
+	left: 50px;
+	top: 5px;
+	bottom: 5px;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+}
+
+body {
+	background: url(https://images.pexels.com/photos/87646/horsehead-nebula-dark-nebula-constellation-orion-87646.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.green-box {
+	width: 600px;
+	height: 300px;
+	border: 10px dotted green;
+	margin-left: auto;
+	margin-right: auto; 
+	position: relative;
+	top: 200px;
+}
+
+.cat {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: -100px;
+    left: -100px;
+	background-image: url(https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb); 
+	background-position: center; 
+	background-size: 100% 100%;
+}
+
+.dog {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+ 	left: 500px;
+ 	top: 150px;
+	background-image: url(https://images.pexels.com/photos/7720/night-animal-dog-pet.jpg?w=1260&h=750&auto=compress&cs=tinysrgb); 
+	background-position: center; 
+	background-size: 100% 100%;
+}
 
